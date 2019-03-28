@@ -1,0 +1,14 @@
+// DC/DC converter of Watt system
+digraph {
+	S [label="Multri-rotor drone" color=grey shape=rectangle]
+	C1 [label=Propellers shape=rectangle]
+	C2 [label=Motors shape=rectangle]
+	C3 [label=ESC shape=rectangle]
+	C4 [label=Batteries shape=rectangle]
+	C5 [label=Frame shape=rectangle]
+	S -> C1
+	S -> C2
+	S -> C3
+	S -> C4
+	S -> C5
+}
